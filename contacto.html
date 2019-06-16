@@ -6,34 +6,37 @@
 <title>Contacto</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/bootstrap-custom.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
+	<link href="css/all.min.css" rel="stylesheet">
+	<link href="css/style.g.css" rel="stylesheet">
 </head>
 
 <body>
-	<header>
+	<header class="col-lg-12">
 		<div class="container-fluid">
 			
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="index.html"><img src="img/nuevo logo graphicart 3.png" class="img-fluid" alt="logotipo graphicart" width="100"></a>
+  <a class="navbar-brand" href="inicio.html"><img src="img/nuevo logo graphicart 3.png" class="img-fluid" alt="logotipo graphicart" width="100"></a>
  
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <span class="toggler-icon"> 
+	<i class="fas fa-bars"></i>
+	  </span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mx-auto">
       <li class="nav-item">
-        <a class="nav-link" href="index.html">INICIO <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="inicio.html">INICIO <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="index.l.html">QUIÉNES<br>SOMOS</a>
+        <a class="nav-link" href="quienesomos.html">QUIÉNES<br>SOMOS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="index.e.html">SERVICIOS</a>
+        <a class="nav-link" href="servicios.html">SERVICIOS</a>
       </li>
   
       <li class="nav-item">
-        <a class="nav-link" href="index.m.html">EQUIPO<br>TRABAJO</a>
+        <a class="nav-link" href="equipo.html">EQUIPO<br>TRABAJO</a>
       </li>
 		
 		<li class="nav-item active">
@@ -47,81 +50,81 @@
 </header>
 	<section id="sec-photo"> 
 		<div class="container">
-		<div class="container" id="tit">
+		<div id="tit">
 		<h2>CONTÁCTANOS</h2>
 			</div>
 		</div>
 		</section>
 	<section id="sec-address">
+		<div class="container">
 		<div class="row">
-		<div class="wrapper">
-			<article class="col-md-12 col-sm-6 col-xs-3">
-		<div class="contact-form">
-			<div class="title">Contáctanos</div>
+			
+			<article class="col-md-6 col-sm-12 col-xs-12">
+				<h3><b>Dirección:</b> Bo. La Guadalupe, Ave. República de Chile, #2390</h3>
+				<h3><b>Tel:</b> 2213-4432</h3>
 
-			<div class="input-fields">
-					<div class="items">
-						<label for="name" class="label">nombre</label>
-						<input id="name" type="text" class="input">
+			</article>
+			
+			<article class="col-md-6 col-sm-12 col-xs-12">
+				<div class="contact-form">
+					<div class="title">Contáctanos</div>
+
+					<div class="input-fields">
+							<div class="items">
+								<label for="name" class="label">nombre</label>
+								<input id="name" type="text" class="input">
+							</div>
+							<div class="items">
+								<label for="email" class="label">email</label>
+								<input id="email" type="text" class="input">
+							</div>
+							<div class="items">
+							<label for="msg" class="label">mensaje</label>
+							<select id="subject" name="subject" class="form-control">
+								<option value="consulta">Consulta</option>
+								<option value="info">Información</option>
+								<option value="precio">Precio</option>
+								<option value="promo">Promociones</option>
+							</select>
+						</div>
+							<div class="items">
+								<label for="msg" class="label">mensaje</label>
+								<textarea id="msg" class="text-area"></textarea>
+							</div>
 					</div>
-					<div class="items">
-						<label for="email" class="label">email</label>
-						<input id="email" type="text" class="input">
-					</div>
-					<div class="items">
-						<label for="subject" class="label">asunto</label>
-						<input id="subject" type="text" class="input">
-					</div>
-					<div class="items">
-						<label for="msg" class="label">mensaje</label>
-						<textarea id="msg" class="text-area"></textarea>
-					</div>
-			</div>
-				
-			<a class="btn btn-dark" href="#">ENVIAR</a>
-		</div>
+
+					<a class="btn btn-dark" href="graphicart@gmail.com">ENVIAR</a>
+				</div>
 			</article>
 			</div>
 			
-	
-		<div class="container">
-		<div class="row">
-		<article class="col-md-6 col-sm-12 col-xs-12">
-		<h3><b>Dirección:</b> Bo. La Guadalupe, Ave. República de Chile, #2390</h3>
-		<h3><b>Tel:</b> 2213-4432</h3>
-	
-		</article>
-		
-		<article class="col-md-6 col-sm-6 col-xs-3">
-		<div class="contacto">
-	
-	
-		</div>
-			</div>
-			</article>
-			</div>
 			</div>
 		</section>
 	
+	<section id="map" class="section">
+		<div class="container">
+				<div id="map-view"></div>
+		</div>
+	</section>
+	
 <footer>
-		<div class="container-contact">
+			
 		<div class="container">
 		<div class="row">
 		<article class="col-md-6 col-sm-12 col-xs-12">
-		<ul>
-			<ul><b>Facebook:</b> Graphicart-Publicidad E Imprenta</ul>
-			<ul><b>Correo:</b> www.graphicart@gmail.com</ul>
-			<ul><b>Tel:</b> 2213-4432</ul>
+		<ul class="list-unstyled">
+			<li><b>Facebook:</b> Graphicart-Publicidad E Imprenta</li>
+			<li><b>Correo:</b> www.graphicart@gmail.com</li>
+			<li><b>Tel:</b> 2213-4432</li>
 		</ul>
 		</article>
 		
 		<article class="col-md-6 col-sm-12 col-xs-12">
 		<div class="contacto">
-		<a class="btn btn-dark">Contáctanos</a>
+		<a href="contacto.html" class="btn btn-dark">Contáctanos</a>
 		<h6>Derechos Reservados Graphicart ®</h6>
 		</div>
 		</article>
-		</div>
 		</div>
 		</div>
 	
@@ -129,6 +132,49 @@
 	
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=false"></script>
+	<script src="js/gmaps.js"></script>
+	
+	<script>
+$(function () {
+	
+	$(window).load(function(){
+		mostrarMapa();
+	});
+
+	function mostrarMapa(){
+		var map;
+		var mLat = 14.048399; //latitud
+		var mLng = -87.174078; //longitud
+
+		map = new GMaps({
+			div: '#map-view', //id del <div> donde se mostrará el mapa.
+			lat: mLat,
+			lng: mLng,
+			zoom: 18
+		  });
+		map.addMarker({
+		  lat: mLat,
+		  lng: mLng,
+		  title: 'Contact Us',
+		  infoWindow: {
+			content: '<p>Información del mapa</p>'
+		  }
+		});	
+		
+	}
+});
+</script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141120154-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-141120154-1');
+</script>
 	
 </body>
 </html>

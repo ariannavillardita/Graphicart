@@ -9,19 +9,19 @@ header{
 	background-color: #000000;
 }
 
-#sec-services{
+#sec-servicess{
 	background-color:#FFFFFF;
 	margin: 50px 0 80px;
 	color: #000;
 }
-#sec-services h2{
+#sec-servicess h2{
 	font-size: 45px;
 	font-weight: 600;
 	color: #000000;
 	margin-bottom: 25px;
 	margin-top: 30px;
 }
-#sec-services  h4{
+#sec-servicess  h4{
 	font-size: 14px;
 	margin-bottom: 80px;
 	font-weight: 500;
@@ -70,7 +70,7 @@ header{
 }
 footer{
 	text-align: center;
-	color: #000;
+	color: #fff;
 	padding: 20px 0 10px;
 	background-color: #E4007D;
 }
@@ -106,11 +106,8 @@ footer h3{
 	padding-bottom: 130px;
 	 padding-right: 200px;
 }
-.wrapper{
-	position: absolute;
-	top: 50%;
-	left: 70%;
-	transform: translate(-50%, -50%);
+#sec-address{
+	padding: 40px 0;
 }
 
 .contact-form{
@@ -168,7 +165,7 @@ footer h3{
 	background: #ffc107;
 	color: #ffecb3;
 	font-size: 1.25em;	
-	padding: 10px 0;
+	padding: 10px 10px;
 	text-align: center;
 	text-transform: uppercase;
 	border-radius: 5px;
@@ -202,4 +199,9 @@ footer h3{
 	padding: 20px;
 	bottom:px;
 	
+}
+.btn-dark{
+	background-color:rgba(0,0,0,0.28);
+	color: #FFFFFF;
+	text-emphasis-color: #FFFFFF;
 }

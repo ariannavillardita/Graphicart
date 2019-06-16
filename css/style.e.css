@@ -9,7 +9,7 @@ header{
 	color: #000;
 }
 
-#sec-foto{
+#sec-footo{
 	background-image: url( "../img/oficina-1-600x300-2-3.jpg");
 	background-size: cover;
 	background-position: center;
@@ -89,7 +89,11 @@ footer h3{
 	padding-left: 80px;
 	padding-top: 10px;
 }
-.contacto h6{
+.contacto h6{ j
 	font-weight: 300;
 }
-
+.btn-dark{
+	background-color:rgba(0,0,0,0.28);
+	color: #FFFFFF;
+	text-emphasis-color: #FFFFFF;
+}

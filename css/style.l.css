@@ -10,12 +10,12 @@ header{
 	background-color: #000000;
 }
 
-#sec-foto{
+#sec-fooooto{
 	background-image: url( "../img/page-corporate-company-team-building-cover-image.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	padding: 250px 0;
+	padding: 300px 0;
 	
 }
 
@@ -85,4 +85,9 @@ footer h3{
 }
 .contacto h6{
 	font-weight: 300;
+}
+.btn-dark{
+	background-color:rgba(0,0,0,0.28);
+	color: #FFFFFF;
+	text-emphasis-color: #FFFFFF;
 }

@@ -1,0 +1,512 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	font-family: Segoe UI;
+	font-size: 14px;
+	color: #000000;
+}
+header{
+	text-align: center;
+	color: #000000;
+	background-color: #000000;
+}
+
+#sec-services{
+	background-color:#FFFFFF;
+	margin: 50px 0 80px;
+	color: #000;
+}
+#sec-services h2{
+	font-size: 45px;
+	font-weight: 600;
+	color: #000000;
+	margin-bottom: 25px;
+	margin-top: 30px;
+}
+#sec-services  h4{
+	font-size: 14px;
+	margin-bottom: 80px;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 20px;
+}
+.texting{
+	margin-bottom: 50px;
+	text-align: center;
+}
+.texto{
+	font-size: 54px;
+	color: #000000;
+	font-weight: 300;
+	margin-bottom: 45px;
+}
+.titulo{
+	font-size: 55px;
+	color: #FFFFFF;
+	text-align: center;
+	margin-bottom: 45px;
+	font-weight: 600;
+}
+
+#sec-values{
+	background-color: #000000;
+	color: #fff;
+	text-align: center;
+	padding: 30px 0 80px;
+}
+#sec-values h2{
+	margin-top: 20px;
+	color: #fff;
+	font-weight: 400;
+	margin-bottom: 30px;
+	font-size: 40px;
+}
+#sec-values h6{
+	margin-bottom: 80px;
+	font-weight: 400;	
+}
+.text{
+	padding-bottom: 60px;
+	font-weight: 700;
+	font-size: 23px;
+	margin-top: 20px;
+}
+footer{
+	text-align: center;
+	color: #fff;
+	padding: 20px 0 10px;
+	background-color: #E4007D;
+}
+footer h3{
+	font-size: 20px;
+}
+.contacto{
+	margin-top: 6px;
+	text-align: center;
+}
+.container-contact{
+	text-align: justify;
+	padding-left: 80px;
+	padding-top: 10px;
+}
+.contacto h6{
+	font-weight: 300;
+}
+#sec-photo{
+	background-image: url("../img/contact-us.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 150px 0;
+	opacity: 50;
+	
+}
+ #sec-photo h2{
+	font-size: 45px;
+	font-weight: 600;
+	color: #FFFFFF;
+	text-align: center;
+	padding-bottom: 130px;
+	 padding-right: 200px;
+}
+#sec-address{
+	padding: 40px 0;
+}
+
+.contact-form{
+	width: 100%;
+	max-width: 500px;
+	height: auto;
+	background: rgba(0,0,0,0.7);
+	padding: 40px 50px;
+	border-radius: 5px;
+}
+
+.title{
+	font-size: 2em;
+	line-height: 1.25em;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 2px;
+	color: #ffc107;
+	padding-bottom: 15px;
+}
+
+.input-fields {
+    padding: 0 30px;
+}
+
+.input-fields .items{
+	width: 100%;
+	padding-bottom: 15px;
+} 
+
+.input-fields .items .label{
+	display: block;
+    font-size: 1em;
+    color: #ffecb3;
+    text-transform: capitalize;
+    transition: all 0.5s ease;
+    padding-bottom: 5px;
+}
+
+.input-fields .items .input,
+.input-fields .items .text-area{
+	background: transparent;
+    border: 0;
+    border: 1px solid #ffecb3;
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 1em;
+    color: #ffecb3;
+    border-radius: 3px;
+}
+
+.btn{
+	margin: 0 30px;
+	background: #ffc107;
+	color: #ffecb3;
+	font-size: 1.25em;	
+	padding: 10px 10px;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+
+.items #msg{
+	height: 100px;
+}
+
+
+/* jquery code */
+.input-fields .items .input.active .label{
+	font-size: 15px;
+	top: 0;
+}
+
+@media screen and (max-width: 750px){
+	.input-fields {
+	    padding: 0;
+	}
+}
+
+.container h3{
+	background-color: rgba(0,0,0,0.7);
+	color: #FFFFFF;
+	left: 300px;
+	padding: 20px;
+	bottom:px;
+	
+}
+.btn-dark{
+	background-color:rgba(0,0,0,0.28);
+	color: #FFFFFF;
+	text-emphasis-color: #FFFFFF;
+}
+#sec-equipos{
+	margin-top: 70px;
+}
+
+#sec-equipos h2{
+	font-size: 25px;
+}
+
+#sec-equipos h6{
+	font-weight: 400;
+}
+
+#sec-equipos .row h5{
+	font-weight: 640;
+}
+
+#sec-foooto{
+	background-image: url( "../img/bs2-600x300.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 250px 0;
+}
+
+#sec-hero{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #000000;
+	padding: 300px 0 100px;
+	margin-top: 20px;
+}
+
+#sec-services{
+	background-color:#FFFFFF;
+	margin: 50px 0 80px;
+	color: #000;
+}
+#sec-services h2{
+	font-size: 45px;
+	font-weight: 600;
+	color: #000000;
+	margin-bottom: 25px;
+	margin-top: 30px;
+}
+#sec-services  h4{
+	font-size: 14px;
+	margin-bottom: 80px;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 20px;
+}
+.texting{
+	margin-bottom: 50px;
+	text-align: center;
+}
+.texto{
+	font-size: 54px;
+	color: #000000;
+	font-weight: 300;
+	margin-bottom: 45px;
+}
+.titulo{
+	font-size: 55px;
+	color: #FFFFFF;
+	text-align: center;
+	margin-bottom: 45px;
+	font-weight: 600;
+}
+
+#sec-values{
+	background-color: #000000;
+	color: #fff;
+	text-align: center;
+	padding: 30px 0 80px;
+}
+#sec-values h2{
+	margin-top: 20px;
+	color: #fff;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+#sec-values h6{
+	margin-bottom: 80px;
+	font-weight: 400;	
+}
+.text{
+	padding-bottom: 60px;
+	font-weight: 700;
+	font-size: 23px;
+	margin-top: 20px;
+}
+#sec-equipos{
+	background-color: #fff;
+	font-size: 18px;
+	margin-bottom: 80px;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 20px;
+}
+#sec-equipos h2{
+	color: #000000;
+	text-align: center;
+}
+#sec-equipos h6{
+	text-align: center;
+}
+#sec-servicess{
+	background-color:#FFFFFF;
+	margin: 50px 0 80px;
+	color: #000;
+}
+#sec-servicess h2{
+	font-size: 45px;
+	font-weight: 600;
+	color: #000000;
+	margin-bottom: 25px;
+	margin-top: 30px;
+}
+#sec-servicess  h4{
+	font-size: 14px;
+	margin-bottom: 80px;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 20px;
+}
+.texting{
+	margin-bottom: 50px;
+	text-align: center;
+}
+.texto{
+	font-size: 54px;
+	color: #000000;
+	font-weight: 300;
+	margin-bottom: 45px;
+}
+.titulo{
+	font-size: 55px;
+	color: #FFFFFF;
+	text-align: center;
+	margin-bottom: 45px;
+	font-weight: 600;
+}
+
+#sec-values{
+	background-color: #000000;
+	color: #fff;
+	text-align: center;
+	padding: 30px 0 80px;
+}
+#sec-values h2{
+	margin-top: 20px;
+	color: #fff;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+#sec-values h6{
+	margin-bottom: 80px;
+	font-weight: 400;	
+}
+.text{
+	padding-bottom: 60px;
+	font-weight: 700;
+	font-size: 23px;
+	margin-top: 20px;
+}
+#sec-quienesfoto{
+	background-image: url( "../img/page-corporate-company-team-building-cover-image.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 300px 0;
+	
+}
+
+#sec-quien{
+	background-color: #000000;
+	padding: 70px 0;
+}
+
+#sec-quien h6{
+	font-size: 14px;
+	margin: 60px 0;
+	font-weight: 500;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#sec-quien h2{
+	font-size: 45px;
+	font-weight: 600;
+	color: #FFFFFF;
+	margin-bottom: 25px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+#sec-quien h6{
+	font-weight: 400;
+}
+
+#sec-valores{
+	background-color:#FFFFFF;
+	margin: 50px 0 80px;
+	color: #000;
+}
+#sec-valores h6{
+	font-size: 45px;
+	font-weight: 600;
+	color: #000000;
+	margin-bottom: 25px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+#sec-valores p{
+	margin-top: 20px;
+	text-align: center;
+}
+.texting{
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+#sec-valores .row{
+	align-content: center;
+	text-align: center;
+	padding: 12px 0;
+}
+#sec-footo{
+	background-image: url( "../img/oficina-1-600x300-2-3.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 300px 0;
+}
+#sec-hero{
+	background-image: url("../img/img.1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #000000;
+	padding: 300px 0;
+}
+#sec-services{
+	background-color:#000000;
+	color: #fff;
+	padding: 60px 0;
+	margin: 0px 0;
+}
+
+#sec-services h2{
+	font-size: 45px;
+	font-weight: 600;
+	color: #fff;
+	margin-bottom: 25px;
+	margin-top: 10px;
+}
+#sec-services  h4{
+	font-size: 14px;
+	margin-bottom: 80px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#sec-services h7{
+	margin-bottom: 20px;
+}
+
+
+.container{
+	text-align: center;
+}
+.texting{
+	margin-bottom: 40px;
+
+}		
+.texto{
+	font-size: 54px;
+	color: #000000;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+.titulo{
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: center;
+	margin-bottom: 40px;
+	font-weight: 600;
+}
+
+#content{
+	padding: 7% 0;
+	
+}
+
+#map-view{
+	width: 100%;
+	height: 300px;
+	margin-bottom: 40px;
+}

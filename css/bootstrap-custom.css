@@ -9,7 +9,7 @@ a{
 	color:#fff;	
 	font-weight:600;
 	text-transform: uppercase;
-	padding-right: 30px;
+	padding-right: 20px;
 }
 .navbar-light .navbar-nav .nav-link:hover{
 	color:#FFEC00;
@@ -53,7 +53,7 @@ a{
 
 .navbar-light .navbar-toggler{
 	background-color: transparent;
-	border:1px solid #000;
+	border:1px solid #fff;
 }
 .navbar-light .navbar-toggler:hover,
 .navbar-light .navbar-toggler:focus
@@ -62,7 +62,10 @@ a{
 	cursor:pointer;
 }
 .navbar-light .navbar-toggler-icon {
-    background-color: transparent;
+    background-color: #ddd;
+}
+.navbar-light .toggler-icon {
+  color: #ddd;
 }
 
 .navbar-light .navbar-toggle:hover .icon-bar {
